@@ -1,0 +1,43 @@
+# Archivo gitignore aconsejable. Todo separado por categorías
+
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyc
+
+# Tests y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build y paquetes
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# pip
+get-pip.py
+
+# ChromaDB
+chroma_db/
